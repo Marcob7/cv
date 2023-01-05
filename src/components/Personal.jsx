@@ -3,10 +3,9 @@ import { useEffect, useRef, useState } from "react";
 //import banner from '../Assets/banner.png'; 
 //import goodVibesImage from '../Assets/goodvibes.png';
 
+
 const Personal = () => {
 
-  
-    
   
   return (
     <>
@@ -18,8 +17,9 @@ const Personal = () => {
             <div className='sm:text-left'>
                 <h2 className='text-5xl font-bold inline border-b-4 border-[#8685ef] reveal'>
             
-    
-                </h2> 
+     
+                </h2>  
+               
                
                 </div> 
             
@@ -46,7 +46,7 @@ const Personal = () => {
 
 
             </div>
-        </div>
+        </div> 
     </div>
     
  
@@ -55,3 +55,4 @@ const Personal = () => {
 }
  
 export default Personal
+

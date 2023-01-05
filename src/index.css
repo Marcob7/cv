@@ -1,11 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
 
 
 @layer base {
@@ -27,8 +30,10 @@
 .svg-background { 
   background-image: url('./Assets/flat-mountains.svg');
   background-repeat: no-repeat;
+  left: -5px;
   background-size:cover; 
-  width:100%;
+  width:100.3%;
+  position: relative;
 } 
  
 @keyframes gradient-animation {
@@ -76,6 +81,38 @@ button:hover::after {
   transition: transform 0.45s ease-in-out;
   transform: translate3d(200%, 0, 0) rotate(35deg);
 }
+
+
+button.button--tabs {
+  z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  margin: 15px 2px 15px 2px;
+  outline: none;
+  border: none;
+  background-color:#8685ef;
+  overflow: hidden;
+  cursor: pointer; 
+}
+
+button.button--tabs::after {
+  content: '';
+  z-index: -1;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  position: absolute;
+  top: -50%;
+  bottom: -50%;
+  width: 1.25em;
+}
+
+button.button--tabs:hover::after {
+  transition: transform 0.45s ease-in-out;
+  transform: translate3d(200%, 0, 0) rotate(35deg);
+}
+
 
 .content-div {
   background-repeat: no-repeat;
@@ -402,80 +439,29 @@ img {
   box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
   position: relative;
 }
-
-.card > * + * {
-  margin-top: 1.1em;
+.custom--fontsize {
+font-size: 20rem;
+font: xx-large;
 }
 
-.card .card__content {
-  color: var(--secondary-color);
-  font-size: 0.86rem;
+.big--number {
+  font-size: 25em;
+  color: #f3f3f3; 
+  font-family:Verdana;
 }
 
-.card .card__title {
-  padding: 0;
-  font-size: 1.3rem;
-  font-weight: bold;
+.description--content h1{
+  font-size: 4em;
+  font-family:Verdana;
 }
 
-.card .card__date {
-  color: #6e6b80;
-  font-size: 0.8rem;
+
+.description--content h2{
+  font-size: 6em;
+  color: #f3f3f3;
 }
 
-.card .card__arrow {
-  position: absolute;
-  background: var(--primary-color);
-  padding: 0.4rem;
-  border-top-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
-  bottom: 0;
-  right: 0;
-  transition: 0.2s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card svg {
-  transition: 0.2s;
-}
-
-/* hover */
-.card:hover .card__title {
-  color: var(--primary-color);
-  text-decoration: underline;
-}
-
-.card:hover .card__arrow {
-  background: #111;
-}
-
-.card:hover .card__arrow svg {
-  transform: translateX(3px);
-}
-
-/* slider */
-.bd-example,
-.tab-content{
-  width:100%;
-  display:inline-block;
-  vertical-align: top;
-}
-.slider h3 {
-    background: #000;
-    color: #3498db;
-    font-size: 36px;
-    line-height: 100px;
-    margin: 10px;
-    padding: 2%;
-    position: relative;
-    text-align: center;
-}
-
-.slick-prev:before, 
-.slick-next:before { 
-
-    color: black;
-
+.list--description {
+  font-size: 18px;
+  padding-left: 5px;
 }

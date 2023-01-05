@@ -8,11 +8,11 @@ const About = () => {
     <div name='about' className='w-full h-screen bg-[#252525] text-gray-300'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
         
-            <div className='max-w-[1300px] w-full grid sm:grid-cols-2 sm:grid-rows-1 auto gap-36 px-4'>
+            <div className='max-w-[1600px] w-full grid sm:grid-cols-2 sm:grid-rows-1 auto gap-36 px-4'>
                {/*grid*/}
             <div className='sm:text-left'>
                 <h2 className='text-5xl font-bold inline border-b-4 border-[#8685ef] reveal'>
-                       About me 
+                About me 
                 </h2> 
                 <p className='mt-10'>
                   Currently i'm working on different projects with a lot of passion. I am specialized in UX design, but i'm also an experienced front-end developer. 

@@ -9,16 +9,16 @@ const Ervaring = () => {
   return (
   <>
 
-    <div name='ervaring' className='w-full h-screen bg-[#252525] text-gray-300 pt-8'>
+    <div name='ervaring' className='w-full h-[100px] bg-[#252525] text-gray-300'>
         <div>
-
+        
             {/*Container*/}
-            <div className='max-w-[1300px] height-auto mx-auto p-4 pt-12 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1600px] mx-auto p-4 pt-12 flex flex-col justify-center w-full'>
                 <div>
                     <p className='text-5xl font-bold inline border-b-4 border-[#8685ef]'>Experience</p>
-                    <p className='py-4'>// These are companies i worked with.</p>
+                    <p className='py-4 reveal'>These are companies i worked with.</p>
                 </div>
-                <div className="hidden md:block md:overflow-hidden md:mt-4 md:pb-14">
+                <div className="hidden md:block md:overflow-hidden md:mt-4">
                 <div className="flex items-center text-left gap-x-10 reveal"> 
                             <img alt="belastingdienst" src={belastingdienst} width={175} />
                             <img alt="belastingdienst" src={Fotovakschool} width={175} />

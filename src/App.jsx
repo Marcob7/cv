@@ -7,9 +7,9 @@ import Ervaring from "./components/Ervaring";
 //import Projecten from "./components/Projecten";
 import Work from "./components/Work";
 import Personal from "./components/Personal";
-
-
-
+import Example from "./components/example"; 
+import Test from "./components/test"; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //temp place this here so it appears on the whole app.
 function reveal() {
@@ -41,9 +41,12 @@ function App() {
     <Learning />
     <Ervaring /> 
     <Personal />
-    <Work />
-    <Contact /> 
-   
+    <Example />
+    <Test />
+
+    <Work /> 
+    <Contact />   
+    
     </>
   );
 }

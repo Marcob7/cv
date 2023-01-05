@@ -5,9 +5,9 @@ import video from '../Assets/robot.mp4';
 const About = () => {
   return (
     <>
-    <div name='about' className='w-full h-screen bg-[#252525] text-gray-300'>
+    <div name='about' className='w-full bg-[#252525] text-gray-300'>
         <div className='flex flex-col justify-center items-center w-full'>
-        <div className='max-w-[1300px] w-full px-4'>
+        <div className='max-w-[1600px] w-full h-[600px] px-4'>
            
     <article class="services-card">
      
@@ -17,7 +17,7 @@ const About = () => {
                 </h3> 
      
        <div class="services-card__text">
-       Keeping up to date with the latest tech is my go-to passion. I always keep an eye out for new frameworks or designsto keep up to date and work with the best technology.
+       Keeping up to date with the latest tech is my go-to passion. I always keep an eye out for new frameworks or designs to keep up to date and work with the best technology.
        </div>
      </div>
      <figure class="services-card__img">

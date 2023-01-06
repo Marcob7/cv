@@ -39,17 +39,18 @@ const TabComponent = () => {
   // Render the tab buttons and the content for the selected tab
   return (
     <>
-       <div name='work' className='bg-[#252525] w-full h-[800px] text-gray-300'>
+            <div className="custom--bg--dark absolute -bottom-100 left-1/2 -translate-x-2/3 w-[516px] h-[516px] rounded-full blur-[200px] md:blur-[100px] opacity-75"></div>
+       <div name='work' className='bg-[#fafafa] w-full h-[800px] text-[#474554]'>
         <div className='max-w-[1800px] mx-auto p-4 flex flex-col justify-center w-full'>
             <div className='pb-8'>
         </div>
-      
+
         {/*Container*/}
-        <div className='grid sm:grid-cols-1 md:grid-cols-8 gap-4 reveal'>
+        <div className='grid sm:grid-cols-1 md:grid-cols-8 gap-4 text-[#474554]'>
 
                 {/*Grid item */}
                 <div 
-                className='group container flex justify-center text-left big--number reveal'>
+                className='group container flex justify-center text-left big--number'>
                   <h1><TabContent content={tabsNumbers[selectedTab]} /></h1>
                
                 </div>
@@ -77,7 +78,7 @@ const TabComponent = () => {
 
             <div 
                 className='group container justify-center items-center description--content'>
-                <p className='text-5xl font-bold inline border-b-4 border-[#8685ef]'>What i do</p>
+                <p className='text-5xl font-bold inline text-[#474554]'>What i do</p>
                   <h2><TabContent content={tabs[selectedTab]} /></h2>
              <div>
              {Object.keys(tabs).map(tab => (
@@ -88,7 +89,7 @@ const TabComponent = () => {
              </div>
              <div className='list--description'>
            
-             <p className='text-2xl bold mr-48 pt-4 pb-4 mb-4 text-[#aca9bb]'><TabContent content={content[selectedTab]} /></p>
+             <p className='text-3xl bold mr-36 pt-4 pb-4 mb-4 text-[#474554]'><TabContent content={content[selectedTab]} /></p>
            
              </div>   
             

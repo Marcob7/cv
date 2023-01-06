@@ -5,7 +5,7 @@ import video from '../Assets/robot.mp4';
 const About = () => {
   return (
     <>
-    <div name='about' className='w-full bg-[#252525] text-gray-300'>
+    <div name='about' className='w-full bg-[#fafafa] text-gray-300'>
         <div className='flex flex-col justify-center items-center w-full'>
         <div className='max-w-[1600px] w-full h-[600px] px-4'>
            

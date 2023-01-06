@@ -1,7 +1,7 @@
 import React from 'react'
-import belastingdienst from '../Assets/Logo_Belastingdienst.png';
+import belastingdienst from '../Assets/Belastingdienst-logo.png';
 import Mediamarkt from '../Assets/Media_Markt.png';
-import Fotovakschool from '../Assets/fotovakschool.png';
+import Fotovakschool from '../Assets/FotovakschoolLogo_fc.png';
 import Ziut from '../Assets/Ziut.png';
 import Ahold from '../Assets/albert-heijn.png';
 
@@ -9,17 +9,17 @@ const Ervaring = () => {
   return (
   <>
 
-    <div name='ervaring' className='w-full h-[100px] bg-[#252525] text-gray-300'>
-        <div>
+    <div name='ervaring' className='w-full h-[100px] bg-[#fafafa] text-[#474554]'>
+        <div> 
         
             {/*Container*/}
-            <div className='max-w-[1600px] mx-auto p-4 pt-12 flex flex-col justify-center w-full'>
+            <div className='max-w-[1600px] mx-auto p-4 pt-12 flex flex-col bg-[#fafafa] justify-center w-full'>
                 <div>
-                    <p className='text-5xl font-bold inline border-b-4 border-[#8685ef]'>Experience</p>
-                    <p className='py-4 reveal'>These are companies i worked with.</p>
+                    <p className='text-5xl font-bold inline'>Experience</p>
+                    <p className='py-4'>These are companies i worked with.</p>
                 </div>
                 <div className="hidden md:block md:overflow-hidden md:mt-4">
-                <div className="flex items-center text-left gap-x-10 reveal"> 
+                <div className="flex items-center text-left gap-x-10"> 
                             <img alt="belastingdienst" src={belastingdienst} width={175} />
                             <img alt="belastingdienst" src={Fotovakschool} width={175} />
                             <img alt="belastingdienst" src={Mediamarkt} width={175} />
@@ -46,7 +46,7 @@ const Ervaring = () => {
                     <p className='flex'>
                         <svg className="mr-2 mt-1" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"></path></svg>Work experience</p>
                     <div class="flex group">
-                    <div class="ml-1 w-1 flex-shrink-0 bg-white/25 rounded-t"></div>
+                    <div class="ml-1 w-1 flex-shrink-0 bg-black/25 rounded-t"></div>
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[400px] h-[50px]">
                         <h3><span class="text-base font-bold">Belastingdienst</span> <span class="text-xs"></span></h3>
@@ -56,7 +56,7 @@ const Ervaring = () => {
                      </div>
 
                      <div class="flex group">
-                    <div class="ml-1 w-1 flex-shrink-0 bg-white/25 rounded-t"></div>
+                    <div class="ml-1 w-1 flex-shrink-0 bg-black/25 rounded-t"></div>
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[400px] h-[50px]">
                         <h3><span class="text-base font-bold">Belastingdienst</span> <span class="text-xs"></span></h3>
@@ -67,7 +67,7 @@ const Ervaring = () => {
 
 
                      <div class="flex group">
-                    <div class="ml-1 w-1 flex-shrink-0 bg-white/25 rounded-t"></div>
+                    <div class="ml-1 w-1 flex-shrink-0 bg-black/25 rounded-t"></div>
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[400px] h-[50px]">
                         <h3><span class="text-base font-bold">Media Markt Apeldoorn</span> <span class="text-xs"></span></h3>
@@ -77,7 +77,7 @@ const Ervaring = () => {
                      </div>
 
                      <div class="flex group">
-                    <div class="ml-1 w-1 flex-shrink-0 bg-white/25 rounded-t"></div>
+                    <div class="ml-1 w-1 flex-shrink-0 bg-black/25 rounded-t"></div>
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[400px] h-[50px]">
                         <h3><span class="text-base font-bold">Fotovakschool Apeldoorn</span> <span class="text-xs"></span></h3>
@@ -100,7 +100,7 @@ const Ervaring = () => {
                     <svg className="mr-2 mt-1" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg>
                     Studies</p>
                     <div class="flex group">
-                    <div class="ml-1 w-1 flex-shrink-0 bg-white/25 rounded-t"></div>
+                    <div class="ml-1 w-1 flex-shrink-0 bg-black/25 rounded-t"></div>
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[400px] h-[50px]">
                         <h3><span class="text-base font-bold">Hogeschool van Arnhem en Nijmegen (HAN)</span> <span class="text-xs"></span></h3>
@@ -110,7 +110,7 @@ const Ervaring = () => {
                      </div>
 
                      <div class="flex group">
-                    <div class="ml-1 w-1 flex-shrink-0 bg-white/25 rounded-t"></div>
+                    <div class="ml-1 w-1 flex-shrink-0 bg-black/25 rounded-t"></div>
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[400px] h-[50px]">
                         <h3><span class="text-base font-bold">Hogeschool van Arnhem en Nijmegen (HAN)</span> <span class="text-xs"></span></h3>
@@ -120,7 +120,7 @@ const Ervaring = () => {
                      </div>
 
                      <div class="flex group">
-                    <div class="ml-1 w-1 flex-shrink-0 bg-white/25 rounded-t"></div>
+                    <div class="ml-1 w-1 flex-shrink-0 bg-black/25 rounded-t"></div>
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[400px] h-[50px]">
                         <h3><span class="text-base font-bold">Aventus Apeldoorn</span> <span class="text-xs"></span></h3>
@@ -130,7 +130,7 @@ const Ervaring = () => {
                      </div>
                      
                      <div class="flex group">
-                    <div class="ml-1 w-1 flex-shrink-0 bg-white/25 rounded-t"></div>
+                    <div class="ml-1 w-1 flex-shrink-0 bg-black/25 rounded-t"></div>
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[400px] h-[50px]">
                         <h3><span class="text-base font-bold">Aventus Apeldoorn</span> <span class="text-xs"></span></h3>

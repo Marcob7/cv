@@ -11,6 +11,7 @@ import Example from "./components/example";
 import Test from "./components/test"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 //temp place this here so it appears on the whole app.
 function reveal() {
 var reveals = document.querySelectorAll(".reveal");
@@ -38,6 +39,7 @@ function App() {
     <Navbar /> 
     <Home />
     <About />
+    
     <Learning />
     <Ervaring /> 
     <Personal />

@@ -21,6 +21,26 @@
   } 
 } 
 
+.custom--bg {
+  background: rgb(5, 47, 113);
+  position: absolute;
+  width: 516px;
+  height: 516px;
+}
+
+.custom--bg--dark {
+  background: rgba(38, 26, 113, 0.897);
+  position: absolute;
+  width: 516px;
+  height: 516px;
+}
+
+.custom--bg--green {
+  background: rgba(242, 199, 29, 0.897);
+  position: absolute;
+  width: 516px;
+  height: 516px;
+}
 
 .gradient--background {
   background: linear-gradient(167deg,#252525,#270f36);
@@ -446,19 +466,17 @@ font: xx-large;
 
 .big--number {
   font-size: 25em;
-  color: #f3f3f3; 
-  font-family:Verdana;
+  color: #474554; 
 }
 
 .description--content h1{
   font-size: 4em;
-  font-family:Verdana;
 }
 
 
 .description--content h2{
   font-size: 6em;
-  color: #f3f3f3;
+  color: #474554;
 }
 
 .list--description {

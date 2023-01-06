@@ -9,7 +9,7 @@ const Personal = () => {
   
   return (
     <>
-    <div name='about' className='w-full h-screen bg-[#252525] text-gray-300'>
+    <div name='about' className='w-full h-screen bg-[#fafafa] text-gray-300'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
         
             <div className='max-w-[1300px] w-full grid sm:grid-cols-2 sm:grid-rows-2 auto gap-16 px-4'>

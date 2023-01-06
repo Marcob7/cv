@@ -12,7 +12,7 @@ const handleClick = () => setNav(!nav)
 
 
   return (
-    <div className="fixed w-full h-[40px] flex justify-between items-center navbar px-4 bg-[#252525] text-gray-300">
+    <div className="fixed w-full h-[40px] flex justify-between items-center navbar px-4 bg-[#fafafa] text-[#474554]">
         <div className='project-heading'>
         <h2>Marco Buitenhuis Portfolio</h2>
         </div>
@@ -69,17 +69,17 @@ const handleClick = () => setNav(!nav)
           {/* Social icons */}
           <div className='hidden lg:flex fixed flex-col top-[25%] right-0'>
             <ul>
-              <li className='w-[75px] h-[75px] flex justify-between items-center duration-300 bg-blue-600'>
+              <li className='w-[70px] h-[75px] flex justify-between items-center duration-300 bg-blue-600'>
                 <a className='flex justify-between items-center w-full text-gray-300' href="/">
                  <FaLinkedin size={30} />
                 </a>
               </li>
-              <li className='w-[75px] h-[75px] flex justify-between items-center duration-300 bg-[#6fc2d0]'>
+              <li className='w-[70px] h-[75px] flex justify-between items-center duration-300 bg-[#6fc2d0]'>
                 <a className='flex justify-between items-center w-full text-gray-300' href="/">
                  <HiOutlineMail size={30} />
                 </a>
               </li>
-              <li className='w-[75px] h-[75px] flex justify-between items-center duration-300 bg-[#565f69]'>
+              <li className='w-[70px] h-[75px] flex justify-between items-center duration-300 bg-[#565f69]'>
                 <a className='flex justify-between items-center w-full text-gray-300' href="/">
                  <BsFillPersonLinesFill size={30} />
                 </a>

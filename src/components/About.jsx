@@ -1,6 +1,6 @@
 import React from 'react'
 //import banner from '../Assets/banner.png'; 
-import Javascript from '../Assets/Javascript-logo.png';
+import Javascript from '../Assets/javascript-logo.png';
 import Figma from '../Assets/Figma-logo.png';
 import Tailwind from '../Assets/tailwind.png';
 import ReactLogo from '../Assets/react-logo.png';

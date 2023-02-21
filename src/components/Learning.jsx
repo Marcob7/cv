@@ -15,7 +15,7 @@ const Learning = ({ videoUrl, title, description }) => {
         <p className="text-white">{description}</p>
       </div>
       <div className="w-full md:w-1/2">
-        <video controls="" preload="auto" autoplay=""  src={video} className="w-full h-auto" type="video/mp4"/>
+        <video preload="auto" autoplay="true"  src={video} className="w-full h-auto" type="video/mp4"/>
       
       </div>
     </div>

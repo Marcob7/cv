@@ -39,7 +39,7 @@ const TabComponent = () => {
   // Render the tab buttons and the content for the selected tab
   return (
     <>
-        <div className="custom--bg--dark w-full h-[1000px] absolute -bottom-100 left-1/2 -translate-x-2/3 w-[516px] rounded-full blur-[200px] md:blur-[100px] opacity-75"></div>
+        <div className="custom--bg--dark h-[1000px] absolute -bottom-100 left-1/2 -translate-x-2/3 w-[516px] rounded-full blur-[200px] md:blur-[100px] opacity-75"></div>
        <div name='work' className='bg-[#fafafa] w-full h-[1000px] text-[#474554]'>
         <div className='max-w-[1800px] h-full mx-auto p-4 flex flex-col justify-center w-full'>
             <div className=''>

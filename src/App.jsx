@@ -6,12 +6,16 @@ import Learning from "./components/Learning";
 import Ervaring from "./components/Ervaring";
 //import Projecten from "./components/Projecten";
 import Work from "./components/Work";
+import Card from "./components/Card";
 import Example from "./components/example"; 
 import ImageModal from "./components/ImageModal";
-
+import Vrglasses from './Assets/Vrglasses.jpg';
+import Glasses from './Assets/glasses.png';
+import Article from './Assets/Article.png';
+import smartphones from './Assets/smartphones.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import React, { useState } from 'react';
+
 
 //temp place this here so it appears on the whole app.
 function reveal() {
@@ -55,7 +59,42 @@ function App() {
     <Example />
 
     <Work />
-    
+    {/* Put this part before </body> tag */}
+<input type="checkbox" id="my-modal-4" className="modal-toggle" />
+<label htmlFor="my-modal-4" className="modal cursor-pointer"> 
+  <div className="modal-box modal-middle w-11/12 max-w-7xl">
+  <img alt="Servicedesk" src={Article}/>
+    <div className="modal-action">
+      <label htmlFor="my-modal-4" className="button">Close</label>
+    </div>
+  </div>
+  </label>
+
+    <Card
+  imageSrc={Article}
+  title="Card Title"
+  subtitle="Card Subtitle"
+  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet eros eget enim euismod tincidunt vel at lorem."
+  bgCustomColor="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] my-8 bg-[#0807de]"
+
+/>
+<Card
+  imageSrc={Glasses}
+  title="Card Title"
+  subtitle="Card Subtitle"
+  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet eros eget enim euismod tincidunt vel at lorem."
+  bgCustomColor="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] my-8 bg-[#4a5f74]"
+
+/>
+<Card
+  imageSrc={Vrglasses}
+  title="Card Title"
+  subtitle="Card Subtitle"
+  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet eros eget enim euismod tincidunt vel at lorem."
+  bgCustomColor="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] my-8 bg-[#0807de]"
+
+/>
+
 
     <Contact />   
     

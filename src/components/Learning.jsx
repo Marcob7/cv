@@ -2,60 +2,28 @@ import React from 'react'
 //import surfing from '../Assets/surfing.png'; 
 import video from '../Assets/robot.mp4';
 
-const About = () => {
+
+const Learning = ({ videoUrl, title, description }) => {
   return (
-    <>
-    <div name='about' className='w-full bg-[#fafafa] text-gray-300'>
-        <div className='flex flex-col justify-center items-center w-full'>
-        <div className='max-w-[1600px] w-full h-[600px] px-4'>
-           
-    <article class="services-card">
-     
-     <div class="services-card__content">
-     <h3 className='text-5xl font-bold inline reveal'>
-     I like to try and learn new things
-                </h3> 
-     
-       <div class="services-card__text">
-       Keeping up to date with the latest tech is my go-to passion. I always keep an eye out for new frameworks or designs to keep up to date and work with the best technology.
-       </div>
-     </div>
-     <figure class="services-card__img">
-       <span class="services-card__tag tag">Line follower robot</span>
-       <video
-       id="my-video"
-       class="video-js"
-       muted
-       controls
-       preload="auto"
-       autoPlay="on"
-       width="340"
-       height="auto"
-       poster="MY_VIDEO_POSTER.jpg"
-       data-setup="{}"
-     >
-       <source src={video} type="video/mp4" />
-       <source src={video} type="video/webm" />
-       <p class="vjs-no-js">
-         To view this video please enable JavaScript, and consider upgrading to a
-         web browser that
-         <a href="https://videojs.com/html5-video-support/" target="_blank"
-           >supports HTML5 video</a
-         >
-       </p>
-     </video>
-    
-     </figure>
-   </article>
-               
-        </div>
-         
-        </div>
+ <div name='learning' className='w-full xs:h-[1000px] sm:h-[1000px] md:h-[1000px] h-full bg-[#fafafa] text-gray-300'>
+      <div class="flex bg-[#fafafa]">
+  <div class="w-1/6"></div>
+  <div class="w-4/6">
+  <div className="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] bg-[#8685ef] my-8">
+      <div className="w-full md:w-1/2 px-6 py-4">
+        <h3 className="text-lg font-bold mb-2 text-white">{title}</h3>
+        <p className="text-white">{description}</p>
+      </div>
+      <div className="w-full md:w-1/2">
+        <video controls="" preload="auto" autoplay=""  src={video} className="w-full h-auto" type="video/mp4"/>
+      
+      </div>
     </div>
- 
- 
-    </>
-  )
-}
- 
-export default About
+  </div>
+  <div class="w-1/6"></div>
+</div>
+    </div>
+  );
+};
+
+export default Learning;

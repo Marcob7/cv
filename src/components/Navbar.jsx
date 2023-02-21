@@ -70,12 +70,12 @@ const handleClick = () => setNav(!nav)
           <div className='hidden lg:flex fixed flex-col top-[25%] right-0'>
             <ul>
               <li className='w-[70px] h-[75px] flex justify-between items-center duration-300 bg-blue-600'>
-                <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/marco-buitenhuis-0a653171/">
                  <FaLinkedin size={30} />
                 </a>
               </li>
               <li className='w-[70px] h-[75px] flex justify-between items-center duration-300 bg-[#6fc2d0]'>
-                <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                <a className='flex justify-between items-center w-full text-gray-300' href="mailto:Marcobuitenhuis402@hotmail.com">
                  <HiOutlineMail size={30} />
                 </a>
               </li>

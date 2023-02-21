@@ -6,11 +6,12 @@ import Learning from "./components/Learning";
 import Ervaring from "./components/Ervaring";
 //import Projecten from "./components/Projecten";
 import Work from "./components/Work";
-import Personal from "./components/Personal";
 import Example from "./components/example"; 
-import Test from "./components/test"; 
+import ImageModal from "./components/ImageModal";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import React, { useState } from 'react';
 
 //temp place this here so it appears on the whole app.
 function reveal() {
@@ -32,25 +33,34 @@ if (elementTop < windowHeight - elementVisible) {
 window.addEventListener("scroll", reveal);
 
 
+
 function App() {
+
+  
   return ( 
+    
     <>
    
     <Navbar /> 
     <Home />
     <About />
     
-    <Learning />
-    <Ervaring /> 
-    <Personal />
-    <Example />
-    <Test />
+    <Learning 
+       title="I like to learn new things"
+       description="Keeping up to date with the latest tech is my go-to passion. I always keep an eye out for new frameworks or designs to keep up to date and work with the best technology."
+       />
 
-    <Work /> 
+    <Ervaring />  
+
+    <Example />
+
+    <Work />
+    
+
     <Contact />   
     
     </>
-  );
+  ); 
 }
 
 export default App;

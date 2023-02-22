@@ -8,7 +8,7 @@ function Contact() {
             <h2 className='text-5xl text-[#474554] font-bold inline reveal'>
               Contact
               </h2>
-                <p className='text-[#474554] py-4'>Fill the form or contact me by email - Marcobuitenhuis402@hotmail.com</p>
+                <p className='text-[#474554] py-4'>Fill in the form or contact me by email - Marcobuitenhuis402@hotmail.com</p>
             </div>
             <input className='bg-[#efeff1] text-[#474554] p-2' type="text" placeholder='Naam' name='name' />
             <input className='my-4 p-2 bg-[#efeff1] text-[#474554]' type="text" placeholder='E-mail' name='email'/>

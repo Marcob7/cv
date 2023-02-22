@@ -12,7 +12,7 @@ const handleClick = () => setNav(!nav)
 
 
   return (
-    <div className="fixed w-full h-[40px] flex justify-between items-center navbar px-4 bg-[#fafafa] text-[#474554]">
+    <div className="fixed sm:w-full w-auto h-[40px] flex justify-between items-center navbar px-4 bg-[#fafafa] text-[#474554]">
         <div className='project-heading'>
         <h2>Marco Buitenhuis Portfolio</h2>
         </div>
@@ -20,7 +20,7 @@ const handleClick = () => setNav(!nav)
         {/* Menu */}
         
         <ul className='hidden hd:flex'>
-            <li className="">
+            <li className=""> 
             Home
            </li>
             <li className="">

@@ -49,8 +49,8 @@ const Home = () => {
             <div className="custom--bg absolute -bottom-40 left-1/2 -translate-x-2/3 w-[516px] h-[516px] rounded-full blur-[200px] md:blur-[100px] opacity-75"></div>
             <div className="flex flex-wrap justify-center">
   
-                <div className="w-1/3">
-                  <img src={ProfilePic} alt="profielfoto" className="border:radius-[5px] shadow-lg rounded max-w-full h-auto align-middle border-none" />
+                <div className="z-50 w-1/3">
+                  <img src={ProfilePic} alt="profielfoto" className="z-50 border:radius-[5px] shadow-lg rounded max-w-full h-auto align-middle border-none" />
 
                 </div> 
     

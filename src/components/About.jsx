@@ -11,7 +11,7 @@ import BootstrapLogo from '../Assets/bootstrap-logo.png';
 const About = () => {
   return (
     <>
-    <div name='about' className='w-full xs:h-[1000px] sm:h-[1000px] md:h-[1000px] h-full bg-[#fafafa] text-gray-300 mt-24'>
+    <div name='about' className='w-full xs:h-[1000px] sm:h-[1000px] md:h-[1000px] h-full bg-[#fafafa] text-gray-300 pt-24'>
         <div className='flex flex-col justify-center items-center'>
         
             <div className='lg:max-w-[1600px] lg:mt-0 sm:mt-8 w-full grid md:grid-rows-2 md:grid-cols-4 sm-grid-cols-1 gap-8 px-4'>
@@ -21,7 +21,7 @@ const About = () => {
                 About me 
                 </h2> 
                 <p className='mt-10 text-[#474554]'>
-                  Currently i'm working on different projects with a lot of passion. I am specialized in UX design, but i'm also an experienced front-end developer. 
+                  Currently I'm working on different projects with a lot of passion. I am specialized in UX design, but I'm also an experienced front-end developer. 
                  
                 <br></br><br></br> My goal is to make life a little bit easier. I enjoy developing or designing programs for clients on a scale from individual level to big companies like 'de Belastingdienst'. 
                <br></br>

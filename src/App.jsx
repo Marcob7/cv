@@ -13,6 +13,7 @@ import Vrglasses from './Assets/Vrglasses.jpg';
 import Glasses from './Assets/glasses.png';
 import Article from './Assets/Article.png';
 import smartphones from './Assets/smartphones.png';
+import design from './Assets/design.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -70,29 +71,58 @@ function App() {
   </div>
   </label>
 
+  <input type="checkbox" id="my-modal-5" className="modal-toggle" />
+<label htmlFor="my-modal-5" className="modal cursor-pointer"> 
+  <div className="modal-box modal-middle w-11/12 max-w-7xl">
+  <img alt="Servicedesk" src={smartphones}/>
+    <div className="modal-action">
+      <label htmlFor="my-modal-5" className="button">Close</label>
+    </div>
+  </div>
+  </label>
+
+  <input type="checkbox" id="my-modal-6" className="modal-toggle" />
+<label htmlFor="my-modal-6" className="modal cursor-pointer"> 
+  <div className="modal-box modal-middle w-11/12 max-w-7xl">
+  <img alt="Servicedesk" src={design}/>
+    <div className="modal-action">
+      <label htmlFor="my-modal-6" className="button">Close</label>
+    </div>
+  </div>
+  </label>
+
     <Card
   imageSrc={Article}
-  title="Card Title"
-  subtitle="Card Subtitle"
-  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet eros eget enim euismod tincidunt vel at lorem."
+  title="I build Things"
+  subtitle="Web apps and portals"
+  text="A fully functional portal for selfservice by finding your solution, contact with chat or callback, and a form to send your service requests."
   bgCustomColor="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] my-8 bg-[#0807de]"
-
+  statTitle="218.419 unique visitors"
+  statValue="Self service portal"
+  statDesc="Average visit: 3 min 18s"
+  modal="my-modal-4"
 />
 <Card
   imageSrc={Glasses}
-  title="Card Title"
-  subtitle="Card Subtitle"
-  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet eros eget enim euismod tincidunt vel at lorem."
+  title="I connect things"
+  subtitle="API and data handling"
+  text="By using api's I made it possible to show data to the end-users in a nice looking way. Oh. And by creating forms that take requests and places them directly in a registration tool."
   bgCustomColor="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] my-8 bg-[#4a5f74]"
-
+  statTitle="Automation"
+  statValue="Forms and data handling"
+  statDesc=""
+  modal="my-modal-5"
 />
 <Card
   imageSrc={Vrglasses}
-  title="Card Title"
-  subtitle="Card Subtitle"
-  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet eros eget enim euismod tincidunt vel at lorem."
+  title="I design things"
+  subtitle="For 'de Belastingdienst' I created styled components to use in their design library."
+  text="With tools like Figma and Adobe Photoshop I create user friendly designs with the latest design trends in mind."
   bgCustomColor="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] my-8 bg-[#0807de]"
-
+  statTitle="I follow the atest trends and updates"
+  statValue="Unique designs"
+  statDesc=""
+  modal="my-modal-6"
 />
 
 

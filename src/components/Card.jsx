@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-const Card = ({ imageSrc, title, subtitle, text, bgCustomColor, imgWidth }) => {
+const Card = ({ imageSrc, title, subtitle, text, bgCustomColor, statTitle, statValue, statDesc, modal }) => {
   return (
     <div name='work' className='w-full h-full bg-[#fafafa] text-[#474554]'>
-    <div className='bg-[#fafafa] max-w-[1600px] sm:h-[400px] h-[1200px] mx-auto flex flex-col justify-center w-full'>
+    <div className='bg-[#fafafa] max-w-[1600px] sm:h-[400px] h-[600px] mx-auto flex flex-col justify-center w-full'>
     <div name='learning' className='w-full xs:h-[300px] sm:h-[1000px] md:h-[500px] bg-[#fafafa] text-gray-300 my-8'>
       <div class="flex bg-[#fafafa]">
-  <div class="w-5/6">
+  <div class="sm:w-5/6 w-4/4">
 
   <div className={bgCustomColor}>
   
@@ -18,7 +18,7 @@ const Card = ({ imageSrc, title, subtitle, text, bgCustomColor, imgWidth }) => {
           <div className='pt-12 flex-end'>
 
 
-          <label htmlFor="my-modal-4" className="cursor-pointer">Read more</label>
+          <label htmlFor={modal} className="cursor-pointer">Read more</label>
 
 
 
@@ -28,9 +28,9 @@ const Card = ({ imageSrc, title, subtitle, text, bgCustomColor, imgWidth }) => {
       <div className="m-4 absolute stats shadow">
   
   <div className="stat">
-<div className="stat-title">Total Visitors</div>
-<div className="stat-value">218.997</div>
-<div className="stat-desc">Average visit: 3 min 18s</div>
+<div className="stat-title">{statTitle}</div>
+<div className="stat-value">{statValue}</div>
+<div className="stat-desc">{statDesc}</div>
 </div>
 
 </div>

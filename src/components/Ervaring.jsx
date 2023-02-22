@@ -51,7 +51,7 @@ const Ervaring = () => {
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[300px] h-[50px]">
                         <h3><span class="text-base font-bold">Belastingdienst</span> <span class="text-xs"></span></h3>
-                        <p>Front end developer - ICT888 and Digital experience (jan 2019 - current)</p> 
+                        <p>Front end developer and UX Designer - ICT888 and Digital experience (jan 2019 - current)</p> 
                         </div>
                      </div> 
                      </div>
@@ -60,8 +60,8 @@ const Ervaring = () => {
                     <div class="ml-1 w-1 flex-shrink-0 bg-black/25 rounded-t"></div>
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[300px] h-[50px]">
-                        <h3><span class="text-base font-bold">Belastingdienst</span> <span class="text-xs"></span></h3>
-                        <p>UX Designer - ICT888 and Digital experience (jan 2019 - current)</p> 
+                        <h3><span class="text-base font-bold">Belastingdienst / Graduation</span> <span class="text-xs"></span></h3>
+                        <p>End research and high-fidelity prototype - Communication and Multi Media Design -  (jan 2017 - Jun 2017)</p> 
                         </div>
                      </div>
                      </div>
@@ -105,7 +105,7 @@ const Ervaring = () => {
                     <div class="ml-1 w-1 flex-shrink-0 bg-black/25 rounded-t"></div>
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[300px] h-[50px]">
-                        <h3><span class="text-base font-bold">Hogeschool van Arnhem en Nijmegen (HAN)</span> <span class="text-xs"></span></h3>
+                        <h3><span class="text-base font-bold">Hogeschool van Arnhem en Nijmegen (HAN) Graduation</span> <span class="text-xs"></span></h3>
                         <p>Bachelor of science - Communication & multi media design (sept 2014 - juli 2018)</p> 
                         </div>
                      </div>

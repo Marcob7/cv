@@ -97,8 +97,8 @@ function App() {
   subtitle="Web apps and portals"
   text="A fully functional portal for selfservice by finding your solution, contact with chat or callback, and a form to send your service requests."
   bgCustomColor="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] my-8 bg-[#0807de]"
-  statTitle="218.419 unique visitors"
-  statValue="Self service portal"
+  statTitle="Total Page Views"
+  statValue="592.135"
   statDesc="Average visit: 3 min 18s"
   modal="my-modal-4"
 />
@@ -108,9 +108,9 @@ function App() {
   subtitle="API and data handling"
   text="By using api's I made it possible to show data to the end-users in a nice looking way. Oh. And by creating forms that take requests and places them directly in a registration tool."
   bgCustomColor="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] my-8 bg-[#4a5f74]"
-  statTitle="Automation"
-  statValue="Forms and data handling"
-  statDesc=""
+  statTitle="Unique visitors"
+  statValue="218.419"
+  statDesc="Forms and data handling "
   modal="my-modal-5"
 />
 <Card
@@ -119,7 +119,7 @@ function App() {
   subtitle="For 'de Belastingdienst' I created styled components to use in their design library."
   text="With tools like Figma and Adobe Photoshop I create user friendly designs with the latest design trends in mind."
   bgCustomColor="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] my-8 bg-[#0807de]"
-  statTitle="I follow the atest trends and updates"
+  statTitle="I follow the latest trends and updates"
   statValue="Unique designs"
   statDesc=""
   modal="my-modal-6"

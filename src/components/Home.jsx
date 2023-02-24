@@ -18,7 +18,7 @@ const Home = () => {
         <div className='max-w-[1600px] w-full grid grid-cols-2 gap-8'>
        
             <div>
-            </div>
+            </div> 
         </div> 
         
         <div className='max-w-[1300px] w-full grid sm:grid-cols-2 gap-4 px-4 sm:pt-0 pt-12'>

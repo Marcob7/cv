@@ -21,7 +21,7 @@ const Home = () => {
             </div>
         </div> 
         
-        <div className='max-w-[1300px] w-full grid sm:grid-cols-2 gap-4 px-4'>
+        <div className='max-w-[1300px] w-full grid sm:grid-cols-2 gap-4 px-4 sm:pt-0 pt-8'>
             <div className='sm:text-left text-4xl font-bold'>
             <div className='text-left'> 
             <p className='text-[#676380] text-sm'>Hello, my name is,</p>

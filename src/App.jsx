@@ -13,7 +13,8 @@ import Vrglasses from './Assets/Vrglasses.jpg';
 import Glasses from './Assets/glasses.png';
 import Article from './Assets/Article.png';
 import smartphones from './Assets/smartphones.png';
-import design from './Assets/design.png';
+import homeDesign from './Assets/home_design.png';
+import formDesign from './Assets/form_design.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -74,7 +75,7 @@ function App() {
   <input type="checkbox" id="my-modal-5" className="modal-toggle" />
 <label htmlFor="my-modal-5" className="modal cursor-pointer"> 
   <div className="modal-box modal-middle w-11/12 max-w-7xl">
-  <img alt="Servicedesk" src={smartphones}/>
+  <img alt="Servicedesk" src={formDesign}/>
     <div className="modal-action">
       <label htmlFor="my-modal-5" className="button">Close</label>
     </div>
@@ -84,7 +85,7 @@ function App() {
   <input type="checkbox" id="my-modal-6" className="modal-toggle" />
 <label htmlFor="my-modal-6" className="modal cursor-pointer"> 
   <div className="modal-box modal-middle w-11/12 max-w-7xl">
-  <img alt="Servicedesk" src={design}/>
+  <img alt="Servicedesk" src={homeDesign}/>
     <div className="modal-action">
       <label htmlFor="my-modal-6" className="button">Close</label>
     </div>
@@ -95,7 +96,7 @@ function App() {
   imageSrc={Article}
   title="I build Things"
   subtitle="Web apps and portals"
-  text="A fully functional portal for selfservice by finding your solution, contact with chat or callback, and a form to send your service requests."
+  text="A fully functional portal for selfservice by finding your solution, contact with chat or callback, and a form to send your service requests. (Article is in Dutch)."
   bgCustomColor="flex flex-wrap md:flex-no-wrap items-start mx-2 md:mx-0 md:my-6 shadow-md rounded-md overflow-hidden max-h-[500px] my-8 bg-[#0807de]"
   statTitle="Total Page Views"
   statValue="592.135"

@@ -89,7 +89,7 @@ const TabComponent = () => {
                </button>
              ))}
              </div>
-             <div className='list--description sm:mr-[0px] mr-[100px]'>
+             <div className='list--description'>
            
              <p className='text-1xl pt-4 pb-4 mb-4 text-[#000] sm:text-1xl text-[16px]'><TabContent content={content[selectedTab]} /></p>
              

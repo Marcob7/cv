@@ -48,15 +48,18 @@ const handleClick = () => setNav(!nav)
          </div>
 
          {/* Mobile menu */}
-         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center text-white'}>
             <li className="py-6 text-4xl"><Link onClick={handleClick} to="home" smooth={true} offset={50} duration={500} >
             Home
             </Link></li>
             <li className="py-6 text-4xl"> <Link onClick={handleClick} to="about" smooth={true} offset={50} duration={500} >
             About
             </Link></li>
-            <li className="py-6 text-4xl"><Link onClick={handleClick} to="skills" smooth={true} offset={50} duration={500} >
-            Skills
+            <li className="py-6 text-4xl"> <Link onClick={handleClick} to="learning" smooth={true} offset={50} duration={500} >
+            Learning
+            </Link></li>
+            <li className="py-6 text-4xl"><Link onClick={handleClick} to="experience" smooth={true} offset={50} duration={500} >
+            Experience
             </Link></li>
             <li className="py-6 text-4xl"><Link onClick={handleClick} to="work" smooth={true} offset={50} duration={500} >
             Work
@@ -70,17 +73,17 @@ const handleClick = () => setNav(!nav)
           <div className='hidden lg:flex fixed flex-col top-[25%] right-0'>
             <ul>
               <li className='w-[70px] h-[75px] flex justify-between items-center duration-300 bg-blue-600'>
-                <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/marco-buitenhuis-0a653171/">
+                <a className='flex justify-between items-center w-full text-white' href="https://www.linkedin.com/in/marco-buitenhuis-0a653171/">
                  <FaLinkedin size={30} />
                 </a>
               </li>
               <li className='w-[70px] h-[75px] flex justify-between items-center duration-300 bg-[#6fc2d0]'>
-                <a className='flex justify-between items-center w-full text-gray-300' href="mailto:Marcobuitenhuis402@hotmail.com">
+                <a className='flex justify-between items-center w-full text-white' href="mailto:Marcobuitenhuis402@hotmail.com">
                  <HiOutlineMail size={30} />
                 </a>
               </li>
               <li className='w-[70px] h-[75px] flex justify-between items-center duration-300 bg-[#565f69]'>
-                <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                <a className='flex justify-between items-center w-full text-white' href="/">
                  <BsFillPersonLinesFill size={30} />
                 </a>
               </li>

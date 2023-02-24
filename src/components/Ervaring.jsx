@@ -9,7 +9,7 @@ const Ervaring = () => {
   return (
   <>
 
-    <div name='ervaring' className='w-full h-full bg-[#fafafa] text-[#474554]'>
+    <div name='experience' className='w-full h-full bg-[#fafafa] text-[#474554]'>
         <div> 
         
             {/*Container*/}

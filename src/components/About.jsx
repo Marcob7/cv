@@ -37,7 +37,7 @@ const About = () => {
                <div className='text-[#474554]'>
              
                 <div className='h-[130px] bg-[#f2f2f2] p-4 mb-4 rounded relative group'>
-                <div class="flex flex-col gap-1"><span class="font-medium">JavaScript</span><p class="text-xs font-light dark:text-light-500 leading-[1.1rem]">In the past I have worked alot with Javascript without any libraries. Also this was our most common language I had to work with.</p></div>
+                <div class="flex flex-col gap-1"><span class="font-medium">JavaScript</span><p class="text-xs font-light dark:text-light-500 leading-[1.1rem]">In the past I have worked alot with Javascript without any libraries. Also this was the most common language I had to work with.</p></div>
                 <div class="absolute z-10 -right-2 -top-2 w-8 h-8 rounded overflow-hidden shadow">
                     <img src={Javascript} className="w-full h-full object-cover" alt="technology logo" />
                 </div>
@@ -64,7 +64,7 @@ const About = () => {
              
                <div className='text-[#474554]'>
                <div className='h-[130px] bg-[#f2f2f2] p-4  mb-4rounded relative group'>
-                <div class="flex flex-col gap-1"><span class="font-medium">Vuejs</span><p class="text-xs font-light dark:text-light-500 leading-[1.1rem]">I use this library also at my work. With vue and axios I managed to get some api's working for the public.</p></div>
+                <div class="flex flex-col gap-1"><span class="font-medium">Vuejs</span><p class="text-xs font-light dark:text-light-500 leading-[1.1rem]">I've used the Vue framework for a couple of web apps at 'de Belastingdienst'. With Vuejs and axios I managed to get some api's working for the public.</p></div>
                 <div class="absolute z-10 -right-2 -top-2 w-8 h-8 rounded overflow-hidden shadow">
                     <img src={VueLogo} className="w-full h-full object-cover" alt="technology logo" />
                 </div>

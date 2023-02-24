@@ -72,7 +72,7 @@ const Ervaring = () => {
                     <div class="mt-5 ml-8 grid gap-2 pb-2">
                         <div class="relative w-[300px] h-[50px]">
                         <h3><span class="text-base font-bold">Media Markt Apeldoorn</span> <span class="text-xs"></span></h3>
-                        <p>Sales empoyee and advisor ktv and hifi (feb 2016 - feb 2018)</p> 
+                        <p>Sales empoyee and advisor ktv & hifi (feb 2016 - feb 2018)</p> 
                         </div>
                      </div>
                      </div>

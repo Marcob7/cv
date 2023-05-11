@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 //import {HiArrowNarrowRight} from 'react-icons/hi'
 import ProfilePic from '../Assets/profielfoto.jpg';
 import {Link} from 'react-scroll'
-import letters from '../Assets/lettes.png';
+import letters from '../Assets/letters.png';
 
 const Home = () => {
 

@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 //import {HiArrowNarrowRight} from 'react-icons/hi'
 import ProfilePic from '../Assets/profielfoto.jpg';
 import {Link} from 'react-scroll'
-
+import {letters" from ../Assets/lettes.png
 
 const Home = () => {
 
@@ -51,7 +51,7 @@ const Home = () => {
   
                 <div className="z-50 w-1/3">
                   <img src={ProfilePic} alt="profielfoto" className="z-50 border:radius-[5px] shadow-lg rounded max-w-full h-auto align-middle border-none" />
-
+                <img src={letters} alt="letters" />
                 </div> 
     
 

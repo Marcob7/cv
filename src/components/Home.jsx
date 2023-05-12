@@ -3,7 +3,10 @@ import React, {useState} from 'react'
 import ProfilePic from '../Assets/profielfoto.jpg';
 import {Link} from 'react-scroll'
 import letters from '../Assets/letters.png';
-
+import deforuma from '../Assets/deforum_a.jpeg';
+import deforumb from '../Assets/deforum_b.jpeg';
+import deforumc from '../Assets/deforum_c.jpeg';
+import deforumd from '../Assets/deforum_d.jpeg';
 const Home = () => {
 
   const[nav, setNav] = useState(false)
@@ -52,6 +55,10 @@ const Home = () => {
                 <div className="z-50 w-1/3">
                   <img src={ProfilePic} alt="profielfoto" className="z-50 border:radius-[5px] shadow-lg rounded max-w-full h-auto align-middle border-none" />
                 <img src={letters} alt="letters" />
+                <img src={deforuma} alt="deforuma" />
+                <img src={deforumb} alt="deforumb" />
+                <img src={deforumc} alt="deforumc" />
+                <img src={deforumd} alt="deforumd" />
                 </div> 
     
 

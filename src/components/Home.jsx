@@ -7,6 +7,9 @@ import deforuma from '../Assets/deforum_a.jpeg';
 import deforumb from '../Assets/deforum_b.jpeg';
 import deforumc from '../Assets/deforum_c.jpeg';
 import deforumd from '../Assets/deforum_d.jpeg';
+import deforum1 from '../Assets/deforum_1.jpeg';
+import deforum2 from '../Assets/deforum_2.jpeg';
+import deforum3 from '../Assets/deforum_3.jpeg';
 const Home = () => {
 
   const[nav, setNav] = useState(false)
@@ -59,6 +62,9 @@ const Home = () => {
                 <img src={deforumb} alt="deforumb" />
                 <img src={deforumc} alt="deforumc" />
                 <img src={deforumd} alt="deforumd" />
+                <img src={deforum1} alt="deforum1" />
+                <img src={deforum2} alt="deforum2" />
+                <img src={deforum3} alt="deforum3" />
                 </div> 
     
 
